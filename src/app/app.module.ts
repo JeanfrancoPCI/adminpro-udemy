@@ -1,3 +1,4 @@
+import { FormsModule } from '@angular/forms';
 // Rutas
 import { APP_ROUTES } from './app.routes';
 // Modulos
@@ -22,7 +23,8 @@ import { NopagefoundComponent } from './shared/nopagefound/nopagefound.component
   imports: [
     BrowserModule,
     APP_ROUTES,
-    PagesModule
+    PagesModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
